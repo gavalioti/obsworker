@@ -15,5 +15,4 @@ Note, that OBS master must be able to connect to the worker instance on given
 OBS_WORKER_PORTBASE.
 
 ## Starting OBS worker
-docker run --privileged --env-file obsworker.env -p 12345:12345 \
-  docker.io/quobyte/obsworker
+docker run --privileged --env-file obsworker.env -p 12345:12345 docker.io/quobyte/obsworker
